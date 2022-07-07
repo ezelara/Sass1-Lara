@@ -1,0 +1,60 @@
+/* STAFF */
+
+#staff {
+    background-color: rgb(136, 140, 185);
+    padding: 15px;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/* ANIDACIÓN DE CLASE CON ING Y LABEL*/
+.foto-texto {
+    display: flex;
+    flex: row;
+    padding: 10px;
+
+    >img {
+
+    width: 25%;
+    height: 25%;
+}
+>label {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 15px;
+}
+
+}
+
+section h2 {
+    padding: 15px;
+}
+
+.texto-inicial {
+    padding: 15px;
+}
+
+.contenido {
+    background-color: rgb(118, 163, 156);
+    margin: 10px 10px 10px 10px;
+    padding: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+/* ANIDACION DE DIV CON IMG Y CON H2*/
+section article div{
+
+img {
+    border: solid;
+    /*display: block;*/
+    margin: 10px 10px 10px 10px;
+}
+
+h2 {
+    padding: 10px;
+}
+
+}
+

@@ -1,0 +1,196 @@
+@charset "UTF-8";
+/* INICIO */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+
+header {
+  background-color: rgb(100, 92, 173);
+  color: white;
+}
+
+.display-3 {
+  background-color: rgb(136, 140, 185);
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+}
+
+.vision {
+  /*background-color:  rgb(118, 163, 156);*/
+  background-image: url(/img/psicologia.jpg);
+  height: fit-content;
+  background-size: cover;
+  text-align: center;
+  height: fit-content;
+  margin: 10px 10px 10px 10px;
+  padding: 15px;
+  font-size: 1rem;
+}
+
+.mision {
+  background-image: url(/img/psicologia.jpg);
+  background-size: cover;
+  text-align: center;
+  height: fit-content;
+  margin: 10px 10px 10px 10px;
+  padding: 15px;
+  font-size: 1rem;
+}
+
+footer {
+  background-color: rgb(100, 92, 173);
+  display: inline-block;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 15px;
+  text-align: center;
+  color: white;
+}
+
+/* NOTICIAS*/
+.actualidad {
+  background-color: rgb(118, 163, 156);
+  margin: 10px 10px 10px 10px;
+  padding: 20px;
+}
+
+.eventos {
+  background-color: rgb(118, 163, 156);
+  margin: 10px 10px 10px 10px;
+  padding: 20px;
+}
+
+.actualidad > p::first-letter {
+  color: rgb(15, 15, 44);
+  font-size: 3rem;
+}
+
+.eventos > p::first-letter {
+  color: rgb(15, 15, 44);
+  font-size: 3rem;
+}
+
+div img {
+  border: solid black;
+  width: 100%;
+  height: auto;
+}
+
+p {
+  padding: 15px;
+}
+
+/* STAFF */
+#staff {
+  background-color: rgb(136, 140, 185);
+  padding: 15px;
+  text-align: center;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+/* ANIDACIÓN DE CLASE CON ING Y LABEL*/
+.foto-texto {
+  display: flex;
+  flex: row;
+  padding: 10px;
+}
+.foto-texto > img {
+  width: 25%;
+  height: 25%;
+}
+.foto-texto > label {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  padding: 15px;
+}
+
+section h2 {
+  padding: 15px;
+}
+
+.texto-inicial {
+  padding: 15px;
+}
+
+.contenido {
+  background-color: rgb(118, 163, 156);
+  margin: 10px 10px 10px 10px;
+  padding: 10px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+/* ANIDACION DE DIV CON IMG Y CON H2*/
+section article div img {
+  border: solid;
+  /*display: block;*/
+  margin: 10px 10px 10px 10px;
+}
+section article div h2 {
+  padding: 10px;
+}
+
+/*PAGOS*/
+#pagos {
+  background-color: rgb(136, 140, 185);
+  padding: 15px;
+  text-align: center;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+section div ul {
+  padding: 15px;
+}
+
+/*CONTACTO*/
+#contacto {
+  background-color: rgb(136, 140, 185);
+  padding: 15px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-align: center;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+section form {
+  padding: 10px;
+}
+
+.campo-form {
+  margin-top: 15px;
+}
+
+/*INGRESAR*/
+#ingresar {
+  background-color: rgb(136, 140, 185);
+  padding: 15px;
+  text-align: center;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#registrate {
+  background-color: rgb(136, 140, 185);
+  padding: 15px;
+  text-align: center;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.contenido-registrate {
+  background-color: rgb(118, 163, 156);
+  margin: 10px 10px 10px 10px;
+  padding: 10px;
+}
+
+/*# sourceMappingURL=style.css.map */

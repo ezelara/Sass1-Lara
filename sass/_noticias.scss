@@ -1,0 +1,36 @@
+/* NOTICIAS*/
+.actualidad {
+    background-color: rgb(118, 163, 156);
+    margin: 10px 10px 10px 10px;
+    padding: 20px;
+
+}
+
+.eventos {
+    background-color: rgb(118, 163, 156);
+    margin: 10px 10px 10px 10px;
+    padding: 20px;
+}
+
+.actualidad>p::first-letter {
+    color: rgb(15, 15, 44);
+    font-size: 3rem;
+}
+
+.eventos>p::first-letter {
+    color: rgb(15, 15, 44);
+    font-size: 3rem;
+}
+
+div img {
+
+    border: solid black;
+    width: 100%;
+    height: auto;
+
+}
+
+p {
+    padding: 15px;
+}
+
