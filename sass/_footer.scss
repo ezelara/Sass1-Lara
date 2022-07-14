@@ -1,0 +1,29 @@
+
+/* FOOTER */
+
+footer {
+    text-decoration: solid;
+    background-color: rgb(100, 92, 173);
+    display: flex;
+    padding: 15px;
+    justify-content: space-evenly;
+}
+/*APLICANDO MAPS */
+$redes: (
+    icono: white
+    
+);
+
+.footer-links {
+    color:map-get($redes, icono);
+    font-size: 2rem;
+    display:inline-block;
+    text-align: center;
+    width: 90%;
+}
+
+i{
+    margin-left: 12%;
+}
+
+

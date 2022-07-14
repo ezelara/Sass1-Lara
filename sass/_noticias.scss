@@ -1,15 +1,16 @@
 /* NOTICIAS*/
+
+/*APLICANDO EXTEND*/
+
 .actualidad {
-    background-color: rgb(118, 163, 156);
-    margin: 10px 10px 10px 10px;
-    padding: 20px;
+    @extend .contenido;
+    padding: 25px;
 
 }
 
 .eventos {
-    background-color: rgb(118, 163, 156);
-    margin: 10px 10px 10px 10px;
-    padding: 20px;
+    @extend .contenido;
+    padding: 30px;
 }
 
 .actualidad>p::first-letter {
@@ -25,12 +26,13 @@
 div img {
 
     border: solid black;
-    width: 100%;
+    width: 80%;
     height: auto;
-
+    margin: 30px;
 }
 
 p {
     padding: 15px;
 }
+
 

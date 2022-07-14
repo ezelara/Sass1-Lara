@@ -57,4 +57,17 @@ h2 {
 }
 
 }
+/*APLICANDO MIXING A TEXTOS*/
 
+@mixin tamanio-texto ($size, $weight) {
+    font-size: $size;
+    font-weight: $weight;
+}
+ 
+.contenido{
+    @include tamanio-texto(1rem,100);
+}
+
+h2{
+    @include tamanio-texto(2rem, 200);
+}
