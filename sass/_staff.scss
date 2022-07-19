@@ -2,7 +2,7 @@
 
 #staff {
     background-color: rgb(136, 140, 185);
-    padding: 15px;
+    padding: 10px;
     text-align: center;
     margin-top: 10px;
     margin-left: 10px;
@@ -13,12 +13,12 @@
 .foto-texto {
     display: flex;
     flex: row;
-    padding: 10px;
+    padding: 5px;
 
     >img {
-
-    width: 25%;
-    height: 25%;
+object-fit: cover;
+    width: 50%;
+    height: 50%;
 }
 >label {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;

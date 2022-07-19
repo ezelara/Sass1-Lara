@@ -1,7 +1,6 @@
 header {
     background-color: rgb(100, 92, 173);
     color: white;
-
 }
 
 
@@ -14,28 +13,48 @@ header {
 
 
 .vision {
-    /*background-color:  rgb(118, 163, 156);*/
-    background-image: url(/img/psicologia.jpg);
+    background-color: rgb(118, 163, 156);
+    /*background-image: url(/img/psicologia.jpg);*/
     height: fit-content;
-
     background-size: cover;
     text-align: center;
-    height: fit-content;
     margin: 10px 10px 10px 10px;
-
     padding: 15px;
     font-size: 1rem;
 }
 
 .mision {
-    background-image: url(/img/psicologia.jpg);
+    background-color: rgb(118, 163, 156);
     background-size: cover;
     text-align: center;
-    height: fit-content;
     margin: 10px 10px 10px 10px;
     padding: 15px;
     font-size: 1rem;
-
 }
 
+.carousel{
+    background-color: rgb(118, 163, 156);
+    margin-top: 10px;
+}
+.carousel-inner{
+  width: 100%;
+  height: auto;
+  align-items: center;
+}
+
+.card{
+    background-color: rgb(118, 163, 156);
+    margin-top: 10px;
+}
+
+#banner{
+
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.btn{
+    background-color: rgb(100, 92, 173);
+    color:azure;
+}
 

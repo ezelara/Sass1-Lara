@@ -3,7 +3,7 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: 0;
+  box-sizing: border-box;
 }
 
 header {
@@ -19,25 +19,49 @@ header {
 }
 
 .vision {
-  /*background-color:  rgb(118, 163, 156);*/
-  background-image: url(/img/psicologia.jpg);
+  background-color: rgb(118, 163, 156);
+  /*background-image: url(/img/psicologia.jpg);*/
   height: fit-content;
   background-size: cover;
   text-align: center;
-  height: fit-content;
   margin: 10px 10px 10px 10px;
   padding: 15px;
   font-size: 1rem;
 }
 
 .mision {
-  background-image: url(/img/psicologia.jpg);
+  background-color: rgb(118, 163, 156);
   background-size: cover;
   text-align: center;
-  height: fit-content;
   margin: 10px 10px 10px 10px;
   padding: 15px;
   font-size: 1rem;
+}
+
+.carousel {
+  background-color: rgb(118, 163, 156);
+  margin-top: 10px;
+}
+
+.carousel-inner {
+  width: 100%;
+  height: auto;
+  align-items: center;
+}
+
+.card {
+  background-color: rgb(118, 163, 156);
+  margin-top: 10px;
+}
+
+#banner {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.btn {
+  background-color: rgb(100, 92, 173);
+  color: azure;
 }
 
 /* FOOTER */
@@ -96,7 +120,7 @@ p {
 /* STAFF */
 #staff {
   background-color: rgb(136, 140, 185);
-  padding: 15px;
+  padding: 10px;
   text-align: center;
   margin-top: 10px;
   margin-left: 10px;
@@ -107,11 +131,12 @@ p {
 .foto-texto {
   display: flex;
   flex: row;
-  padding: 10px;
+  padding: 5px;
 }
 .foto-texto > img {
-  width: 25%;
-  height: 25%;
+  object-fit: cover;
+  width: 50%;
+  height: 50%;
 }
 .foto-texto > label {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
@@ -180,7 +205,7 @@ section div ul {
 }
 
 section form {
-  padding: 10px;
+  padding: 15px;
 }
 
 .campo-form {

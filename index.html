@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="La primer plataforma en Argentina que ofrece contactarte con el terapeuta que elijas y realizar tratamiento 100% virtual">
+    <meta name="description"
+        content="La primer plataforma en Argentina que ofrece contactarte con el terapeuta que elijas y realizar tratamiento 100% virtual">
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
@@ -17,9 +18,7 @@
 <body>
     <!-- HEADER/NAVBAR -->
     <header class="navbar navbar-expand-lg bg-opacity-50 text-white">
-
         <div class="container-fluid">
-
             <a class="navbar-brand text-white" href="#">Psico-online</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -37,7 +36,6 @@
                     <li class="nav-item">
                         <a class="nav-link active text-white " aria-current="page" href="./pages/pagos.html">Pagos</a>
                     </li>
-
                     <li class="nav-item">
                         <a class="nav-link active text-white " aria-current="page"
                             href="./pages/noticias.html">Noticias</a>
@@ -50,8 +48,6 @@
                         <a class="nav-link active text-white " aria-current="page"
                             href="./pages/ingresar.html">Ingresar</a>
                     </li>
-
-
                 </ul>
                 <form class="d-flex" role="search">
                     <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
@@ -60,8 +56,47 @@
             </div>
         </div>
     </header>
-    <!-- Titulo Principal -->
 
+    <div class="banner">
+        <div class="row" id="banner">
+            <!-- carrusel -->
+            <div id="carouselExampleControls" class="col-12 col-md-6 carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./img/1.jpg" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img id="pr" src="./img/2.jpg" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Anterior</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Siguiente</span>
+                </button>
+            </div>
+
+
+            <!-- card -->
+            <div class="col-12 col-md-6 card">
+                <div class=" card-header" style="color: white;">
+                    <b>Conoce nuetros métodos de pagos y promociones!</b>
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Psicologia Online 24hrs</h5>
+                    <p class="card-text"> Puedes acceder a tu primer consulta online en cualquier momento del día. Solo tenés que registrarte y seleccionar la forma de pago por sesión. Serás atendido por un profesional de nuestra plataforma.</p>
+                    <a href="./pages/pagos.html"  class="btn btn-outline">Ver mas</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Titulo Principal -->
     <h1 class="display-3">Quienes Somos</h1>
 
     <div class="container-fluid">
@@ -71,31 +106,23 @@
 
             <div class="col-12 col-md-6 vision">
                 <h2>Visión</h2>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque harum, necessitatibus iure dicta
-                    quod numquam reiciendis nam? Fuga, nisi recusandae optio sit voluptatem similique ducimus
-                    perspiciatis, modi consectetur veritatis tenetur quis suscipit in, earum impedit doloribus
-                    libero quisquam? Suscipit, perferendis nam consectetur, ipsum itaque atque saepe, accusantium
-                    ipsam unde hic in? Hic odit labore eius, nisi, modi repudiandae perspiciatis corrupti et sunt
-                    inventore dignissimos, laboriosam dolores veritatis quibusdam rerum tenetur molestiae veniam.
-                    Dolore totam magnam asperiores tempore delectus voluptatem officiis eius maxime rerum. Quasi
-                    ipsum doloribus asperiores? Eius maxime tenetur laboriosam quisquam culpa? Facilis soluta
-                    nesciunt deleniti voluptate nostrum tempora, repellendus sapiente ducimus fugit praesentium
-                    earum, exercitationem consectetur, facere itaque. Reiciendis repellendus nesciunt eveniet eius,
-                    commodi quisquam in doloribus facilis!</p>
+                <p> Estamos comprometidos como profesionales de atención primaria para ayudar a nuestros pacientes
+                    reanudan su búsqueda permanente de la salud, condición psicológica y el bienestar.</p>
+                <img src="./img/psicologia.jpg" alt="imagen-index">
             </div>
 
 
             <div class="col-12 col-md-5 mision">
                 <h2>Misión</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium numquam doloremque
-                    necessitatibus aperiam architecto. Accusamus ratione harum, iure deserunt quo voluptatem omnis
-                    maiores perferendis rem quia illum at nam incidunt? Sunt iste doloribus fuga aliquid, amet
-                    dolorem nulla, incidunt, eligendi ratione odio corrupti. Amet voluptas ipsa omnis repellat non
-                    nesciunt minus ratione, cupiditate eveniet illo corporis, dolorum pariatur aut harum quae. Quos
-                    nemo quae reprehenderit veniam molestias quidem autem voluptatibus, quia enim consequuntur
-                    accusantium, dolorum architecto quam laborum corrupti ratione incidunt, rem voluptatem
-                    consequatur animi? Corporis sunt fugit impedit. Libero nulla nam pariatur adipisci minima
-                    voluptatibus ullam repellendus dolorem inventore!</p>
+                <p>Brindar una atención psicológica oportuna y eficaz a los pacientes jóvenes y adultos con problemas de
+                    estrés, ansiedad y depresión en todas sus dimensiones, por medio de procesos de asistencia
+                    psicológica virtual (intervención en crisis, asesorías familiares, psicoterapia individual y
+                    talleres de grupo), orientados a mejorar su calidad de vida y permitir a su vez, el desarrollo de
+                    competencias clave para su desenvolvimiento feliz en la vida. Nuestro enfoque proactivo para el
+                    desarrollo de mejores prácticas y métodos eficaces de tratamiento nos ayudará a lograr nuestra razón
+                    de ser.</p>
+                <p>Estamos comprometidos como profesionales de atención primaria para ayudar a nuestros pacientes
+                    reanudan su búsqueda permanente de la salud, condición psicológica y el bienestar.</p>
             </div>
         </div>
     </div>
@@ -118,7 +145,6 @@
             <i class="bi bi-facebook"></i>
         </div>
     </footer>
-
 
     <script src="./js/bootstrap.js"></script>
 </body>
